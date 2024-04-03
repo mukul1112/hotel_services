@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd62d1b6-8ef4-4c4f-9169-eea0c75adad5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-prod.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcwd/hotel/HotelServices/HotelServicesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lcwd/hotel/HotelServices/HotelServicesApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lcwd/hotel/HotelServices/HotelServicesApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lcwd/hotel/HotelServices/HotelServicesApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lcwd/hotel/HotelServices/Services/imp/HotelServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lcwd/hotel/HotelServices/Services/imp/HotelServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lcwd/hotel/HotelServices/entities/Hotel$HotelBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lcwd/hotel/HotelServices/entities/Hotel$HotelBuilder.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
