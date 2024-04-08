@@ -7,7 +7,7 @@ import java.util.List;
 public interface HotelService {
 
     // Getall
-
+     Hotel Create(Hotel hotel);
     List<Hotel> GetAll();
 
   // single hotel
