@@ -5,8 +5,6 @@ import com.lcwd.hotel.HotelServices.entities.Hotel;
 import java.util.List;
 
 public interface HotelService {
-//Create
-    Hotel Create( Hotel hotel);
 
     // Getall
 
