@@ -14,8 +14,17 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Hotel {
     @Id
     private String id;
+    private String firstname;
+    private String lastname;
+    private String dob;
+    private String gender;
+    private String education;
+    private String company;
+    private String experience;
+    private String ctc;
     private String hotelname;
     private String location;
-    private String about;
+    private String About;
     private String imageLink;
+    private String email;
 }

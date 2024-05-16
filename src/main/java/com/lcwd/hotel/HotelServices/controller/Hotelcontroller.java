@@ -52,4 +52,13 @@ public class Hotelcontroller {
         }
 
 
+    @PutMapping("/{id}")
+        public ResponseEntity<Hotel> updateHotel(@PathVariable  String id,@RequestBody Hotel hotel){
+
+        Hotel updatedHotel=hotelService.updateHotel(id, hotel);
+        return ResponseEntity.ok(updatedHotel);
+
+    }
+
+
 }

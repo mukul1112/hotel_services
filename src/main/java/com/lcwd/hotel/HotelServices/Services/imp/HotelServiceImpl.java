@@ -41,4 +41,30 @@ public class HotelServiceImpl implements HotelService {
 
         Hotelrepositories.deleteById(Id);
     }
+
+    @Override
+    public Hotel updateHotel(String Id,Hotel newHotel) {
+
+        Hotel prevHotel= Hotelrepositories.findById(Id).orElseThrow(()->new ResourceNotFoundException("Hotel not found for update"));
+        prevHotel.setFirstname(newHotel.getFirstname());
+        prevHotel.setLastname(newHotel.getLastname());
+        prevHotel.setDob(newHotel.getDob());
+        prevHotel.setGender(newHotel.getGender());
+        prevHotel.setEducation(newHotel.getEducation());
+        prevHotel.setCompany(newHotel.getCompany());
+        prevHotel.setExperience(newHotel.getExperience());
+        prevHotel.setCtc(newHotel.getCtc());
+        prevHotel.setHotelname(newHotel.getHotelname());
+        prevHotel.setLocation(newHotel.getLocation());
+        prevHotel.setAbout(newHotel.getAbout());
+        prevHotel.setImageLink(newHotel.getImageLink());
+        prevHotel.setEmail(newHotel.getEmail());
+
+
+       return Hotelrepositories.save(prevHotel);
+
+
+    }
+
+
 }
